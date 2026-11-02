@@ -1,0 +1,18 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/parent_purple</item>
+        <item name="colorPrimaryDark">@color/parent_purple_dark</item>
+        <item name="colorAccent">@color/parent_purple</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/parent_purple_dark</item>
+        <item name="android:navigationBarColor">@color/parent_white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/parent_surface</item>
+    </style>
+    <style name="AppTheme.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/parent_purple</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
+</resources>
